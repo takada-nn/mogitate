@@ -142,7 +142,7 @@
 
     </form>
 
-    <form action="/products/{{ $product->id }}/delete" method="POST">
+    <form class="product-detail__delete-form"action="/products/{{ $product->id }}/delete" method="POST">
         @csrf
         @method('DELETE')
 

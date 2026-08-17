@@ -171,14 +171,19 @@
     background: #fbc400;
 }
 
+.product-detail__delete-form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 42px;
+    margin-top: -42px;
+}
+
 .product-detail__delete {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     border: none;
     background: transparent;
     color: #f44336;
-    font-size: 20px;
+    font-size: 22px;
     cursor: pointer;
 }
 
