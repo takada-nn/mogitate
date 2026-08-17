@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 30px;
+}
+
+.header__logo {
+    color: #f5c400;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}

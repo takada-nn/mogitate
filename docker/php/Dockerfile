@@ -10,4 +10,7 @@ RUN curl -sS https://getcomposer.org/installer | php \
   && mv composer.phar /usr/local/bin/composer \
   && composer self-update
 
+RUN usermod -u 1000 www-data
+RUN groupmod -g 1000 www-data
+
 WORKDIR /var/www
